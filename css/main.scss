@@ -1,0 +1,122 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+
+
+// Our variables
+$base-font: 'Lato', sans-serif;
+
+
+$primary:          #f76d98;
+
+$black:            #111111;
+
+$white:            #ffffff;
+
+
+
+
+
+body, html {
+  background: $white;
+  color: black;
+  font-family: $base-font;
+  font-size: 17px;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+.site-header {
+  background: $primary;
+  padding: 35px;
+}
+
+.site-header .container-image {
+  margin: 0 auto;
+  max-width: 360px;
+}
+
+.site-header p {
+  color: $white;
+  text-align: center;
+}
+
+.navigation ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.navigation li {
+  border: solid 2px $black;
+  border-radius: 25px;
+  display: inline-block;
+  margin: 30px 20px;
+  min-width: 140px;
+  text-align: center;
+}
+
+.navigation a {
+  color: $black;
+  display: block;
+  font-size: 21px;
+  font-weight: 100;
+  padding: 10px 5px;
+  text-decoration: none;
+}
+
+body.birdnerds .navigation .birdnerds,
+body.barkbrigade .navigation .barkbrigade,
+body.origins .navigation .origins {
+  border-color: $primary;
+}
+
+body.birdnerds .navigation .birdnerds a,
+body.barkbrigade .navigation .barkbrigade a,
+body.origins .navigation .origins a {
+  color: $primary;
+  font-weight: 700;
+}
+
+.inner-page {
+  margin: 0 auto;
+  max-width: 980px;
+}
+
+.container-image img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.footer {
+  padding: 35px;
+}
+
+.footer p {
+  font-size: 21px;
+  font-weight: 100;
+  text-align: center;
+}
+
+@media(max-width: 767px) {
+
+  .navigation li {
+    margin: 15px 2px;
+    min-width: 0px;
+  }
+
+  .navigation a {
+    font-size: 17px;
+    padding: 10px 5px;
+  }
+
+
+}
+
+@import "grid";
+
