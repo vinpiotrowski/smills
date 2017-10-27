@@ -6,11 +6,11 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Nature Photography
-email: vin.piotrowski@gmail.com
-description: Join Vince Piotrowski and Sandra Mills as they trek through vast tracks of wilderness around Calgary, Alberta searching for birds.
+title: Sandra Mills
+email: sandmills@gmail.com
+description: Sandra Mills graduated from ACAD in 2007 after majoring in illustration and relentlessly pursues adorableness via cartoons, pets, and comics.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://birdnerds.ca/"
+url: "http://smills.ca/"
 
 # Build settings
 markdown: kramdown

@@ -84,13 +84,18 @@ body.origins .navigation .origins a {
 
 .inner-page {
   margin: 0 auto;
-  max-width: 980px;
+  max-width: 1200px;
 }
 
 .container-image img {
   display: block;
   margin: 0 auto;
   max-width: 100%;
+}
+
+.comics > div {
+  padding-bottom: 35px;
+  padding-top: 35px;
 }
 
 .footer {
